@@ -352,7 +352,8 @@ p,
     }
 
     .project-wrap2 {
-      
+      padding-top: 90px;
+
       margin-inline: auto;
       display: flex;
       text-align: center;
@@ -415,7 +416,6 @@ p,
 
     iframe {
       aspect-ratio: 16 / 9;
-      width: 100%;
       height: 480px;
       border-radius: 10px;
       border: none;
