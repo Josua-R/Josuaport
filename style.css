@@ -172,6 +172,7 @@ nav ul li a {
 .content {
     text-align: center;
     width: min(920px, 100%);
+    padding-bottom: 80px;
     padding-inline: 1rem;
 }
 
@@ -340,6 +341,10 @@ p,
       padding-bottom: 120px; /* Leave space for footer */
     }
 
+    .project-section2 {
+      padding-bottom: 30px; /* Leave space for footer */
+    }
+
     .project-wrap {
       aspect-ratio: 16 / 9;
       min-width: 480px;
@@ -350,15 +355,23 @@ p,
       gap: var(--card-gap);
       padding: 0 10px;
     }
-
     .project-wrap2 {
-      padding-top: 90px;
-      height: 400px;
+      padding-top: 100px;
+      justify-content: center;
+      height: 480px;
       margin-inline: auto;
       display: flex;
-      text-align: center;
-
     }
+  
+
+  @media (max-width: 480px) {
+        .project-wrap2 {
+        height: 360px;
+        }
+    }
+
+
+
 
     .project-card {
       background: rgba(255, 255, 255, 0.08);
@@ -416,7 +429,7 @@ p,
 
     iframe {
       aspect-ratio: 16 / 9;
-      text-align: center;
+      justify-content: center;
       border-radius: 10px;
       border: none;
     }
