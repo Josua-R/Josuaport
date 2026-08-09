@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function isIndexPage() {
     const p = window.location.pathname;
     // supports "/", "/index.html", or "/folder/index.html"
-    return p === "/" || /\/contact\.html?$/ || /\/resume\.html?$/.test(p);
+    return p === "/" || /\/resume\.html?$/.test(p) || /\/contact\.html?$/.test(p);
 
   }
 
