@@ -750,6 +750,8 @@ button:focus-visible,
 .section-heading {
     display: grid;
     grid-template-columns: 54px 1fr;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
+
     gap: 20px;
     align-items: start;
     margin-bottom: 36px;
@@ -837,6 +839,7 @@ button:focus-visible,
     margin: 0 0 28px;
     color: #fff2a9;
     font-family: "Bebas Neue", sans-serif;
+    
     letter-spacing: .12em;
 }
 
@@ -845,7 +848,8 @@ button:focus-visible,
     color: #fff2a9;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
-         -webkit-text-stroke: .1px rgb(0, 0, 0);
+-webkit-text-stroke: .1px rgb(0, 0, 0);
+ text-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
  font-size: 1.1rem;
     letter-spacing: .12em;
 }
@@ -888,7 +892,9 @@ button:focus-visible,
 
 .custom-quote {
     margin: 24px 0 0;
-    color: rgba(255, 255, 255, .68);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
+    -webkit-text-stroke: .1px rgba(0, 0, 0, 0.582);
     text-align: center;
 }
 
@@ -925,6 +931,8 @@ button:focus-visible,
 .process-grid h3 {
     margin: 2px 0 6px;
     font-size: 1.55rem;
+   text-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
+
 }
 
 .process-grid p {
@@ -933,6 +941,7 @@ button:focus-visible,
     line-height: 1.6;
      font-size: 1.2rem;
      -webkit-text-stroke: .1px rgba(0, 0, 0, 0.582);
+     text-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
 }
 
 .terms-grid {
@@ -1067,13 +1076,13 @@ button:focus-visible,
 .profile-section { padding:80px 0; border-top:1px solid rgba(255,255,255,.12); }
 .profile-story-grid { display:grid; grid-template-columns:100.85fr 1.15fr; gap:clamp(36px,7vw,90px); }
 .profile-story-lead { margin:0; color:#fff; font-family:"Bebas Neue",sans-serif; font-size:clamp(2rem,4vw,3.5rem); line-height:1.08; }
-.profile-story-copy p { margin:0 0 1.2rem; color:rgba(255,255,255,.68); font-size:1.03rem; line-height:1.8; text-align: right; }
+.profile-story-copy p { margin:0 0 1.2rem; color:rgb(255, 255, 255); font-size:1.03rem; line-height:1.8; text-align: right; text-shadow: 0 0 5px rgba(0, 0, 0, 0.582); }
 .expertise-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
 .expertise-card { min-height:20px; display:flex; flex-direction:column; padding:28px; border:1px solid rgba(255, 255, 255, 0.14); border-radius:18px; background:rgba(77, 77, 77, 0.322); transition:transform .2s ease,border-color .2s ease; }
 .expertise-card:hover { transform:translateY(-4px); border-color:rgba(255, 241, 114, 0.5); }
 .expertise-index,.detail-label { color:#fff4b8; letter-spacing:.1em; }
 .expertise-card h3 { margin:auto 0 12px; font-size:2rem; }
-.expertise-card p,.profile-details-grid article>p:last-child { margin:0; color:rgba(255,255,255,.64); line-height:1.65; }
+.expertise-card p,.profile-details-grid article>p:last-child { margin:0; color:rgba(255, 255, 255, 0.925); line-height:1.65; text-shadow: 0 0 5px rgba(0, 0, 0, 0.582); -webkit-text-stroke: .1px rgba(0, 0, 0, 0.582);}
 .profile-details-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; overflow:hidden; border:1px solid rgba(255,255,255,.13); border-radius:18px; background:#555555de; }
 .profile-details-grid article { min-height:230px; padding:28px; background:rgb(34, 34, 34); }
 .profile-details-grid h3 { margin:30px 0 10px; font-size:1.75rem; }
@@ -1081,7 +1090,7 @@ button:focus-visible,
 .profile-final h2 { margin:0; font-size:clamp(2.8rem,6vw,5rem); }
 @media(max-width:900px){.profile-main{padding-top:120px}.profile-hero{grid-template-columns:1fr;gap:38px;text-align:center}.profile-portrait-wrap{width:min(82vw,390px)}.profile-lead{margin-inline:auto}.profile-actions{justify-content:center}.expertise-grid,.profile-details-grid{grid-template-columns:1fr}.expertise-card,.profile-details-grid article{min-height:220px}}
 @media(max-width:620px){.profile-main{width:min(100% - 28px,1180px);padding-bottom:50px}.profile-hero{padding-bottom:56px}.profile-intro h1{font-size:clamp(4.7rem,23vw,7rem)}.profile-availability{right:0;bottom:4%;font-size:.72rem}.profile-actions{display:grid}.profile-section{padding:56px 0}.profile-story-grid{grid-template-columns:1fr;gap:24px}.profile-final{display:block;padding:36px 24px;text-align:center}.profile-final .commission-button{width:100%;margin-top:22px}}
-
+.profile-story-copy h3 { text-shadow: 0 0 2px rgba(0, 0, 0, 0.582); -webkit-text-stroke: .1px rgba(0, 0, 0, 0.582); }
  .form-group { margin-bottom: 15px; }
         label { display: block; margin-bottom: 5px; font-weight: bold; }
         input, textarea { width: 100%; padding: 10px; border: 1px solid #fff7ca; border-radius: 4px;         
