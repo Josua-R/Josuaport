@@ -1079,7 +1079,7 @@ button:focus-visible,
 .profile-lead { max-width:650px; color:rgba(255,255,255,.76); font-size:1.08rem; line-height:1.75; }
 .profile-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
 .profile-section { padding:80px 0; border-top:1px solid rgba(255,255,255,.12); }
-.profile-story-grid { display:grid; grid-template-columns:100.85fr 1.15fr; gap:clamp(36px,7vw,90px); backdrop-filter: blur(5px); border-radius:18px; padding:5px;}
+.profile-story-grid { display:grid; grid-template-columns:100.85fr 1.15fr; gap:clamp(36px,7vw,90px); backdrop-filter: blur(5px); border-radius:18px; padding: 25px; background: #00000015;}
 .profile-story-lead { margin:0; color:#fff; font-family:"Bebas Neue",sans-serif; font-size:clamp(2rem,4vw,3.5rem); line-height:1.08; }
 .profile-story-copy p { margin:0 0 1.2rem; color:rgb(255, 255, 255); font-size:1.04rem; line-height:1.8; text-align: right; text-shadow: -1px -1px 0 #00000077, 1px -1px 0 #00000077, -1px 1px 0 #00000077, 1px 1px 0 #00000077; }
 .expertise-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
